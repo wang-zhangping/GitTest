@@ -8,6 +8,6 @@ abcd
 add func1
 
 add user();
-
+add func2
 111
 222
