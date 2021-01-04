@@ -120,8 +120,6 @@ public class ProductController extends BaseController {
         return "admin/include/productDetails";
     }
 
-	//333
-
     //转到后台管理-产品添加页-ajax
     @RequestMapping(value = "admin/product/new",method = RequestMethod.GET)
     public String goToAddPage(HttpSession session, Map<String, Object> map){
