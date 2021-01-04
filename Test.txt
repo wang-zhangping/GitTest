@@ -6,3 +6,5 @@ abcd
 
 
 add func1
+
+add user();
