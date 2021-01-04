@@ -37,8 +37,6 @@ public class ProductController extends BaseController {
     private PropertyValueService propertyValueService;
     @Resource
     private LastIDService lastIDService;
-	
-	//111
 
     //转到后台管理-产品页-ajax
     @RequestMapping(value = "admin/product",method = RequestMethod.GET)
