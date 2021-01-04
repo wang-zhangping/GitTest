@@ -64,6 +64,8 @@ public class ProductController extends BaseController {
         return "admin/productManagePage";
     }
 
+	//222
+
     //转到后台管理-产品详情页-ajax
     @RequestMapping(value="admin/product/{pid}",method = RequestMethod.GET)
     public String goToDetailsPage(HttpSession session, Map<String, Object> map, @PathVariable Integer pid/* 产品ID */) {
